@@ -1,0 +1,22 @@
+name: Greetings
+
+on:
+  push:
+    branches-ignore:
+      - dependabot/**
+  pull_request:
+    branches-ignore:
+      - dependabot/**
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+      - uses: actions/first-interaction@v1.1.0
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: "Спасибо за Ваше первое сообщение о несоответствии/наблюдении!"
+          pr-message: "Спасибо за Ваше первые изменения в наш проект!"

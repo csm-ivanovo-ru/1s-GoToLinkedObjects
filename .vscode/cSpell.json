@@ -21,7 +21,8 @@
 		"editorconfig",
 		"endregion",
 		"markdownlint",
-		"precommit"
+		"precommit",
+		"wagoid"
 	],
 	"ignoreRegExpList": [],
 	"enableFiletypes": []
