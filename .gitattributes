@@ -1,0 +1,6 @@
+*.xml  -text  merge=text diff=text eol=crlf
+*.xsd  -text  merge=text diff=text eol=crlf
+
+*.md   text  merge=text diff=text eol=crlf
+
+*.json -text  merge=json diff=text eol=crlf
