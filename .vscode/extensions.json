@@ -1,0 +1,29 @@
+{
+	// See http://go.microsoft.com/fwlink/?LinkId=827846
+	// for the documentation about the extensions.json format
+	"recommendations": [
+		"github.vscode-pull-request-github",
+		"cschleiden.vscode-github-actions",
+		"gimenete.github-linker",
+		"pod212.vscode-github-projects",
+		"jasonnutter.vscode-codeowners",
+		"eamodio.gitlens",
+		"vector-of-bool.gitflow",
+		"sidneys1.gitconfig",
+		"mhutchie.git-graph",
+		"editorconfig.editorconfig",
+		"yuichinukiyama.tabspacer",
+		"sleistner.vscode-fileutils",
+		"gruntfuggly.todo-tree",
+		"heaths.vscode-guid",
+		"yzhang.markdown-all-in-one",
+		"davidanson.vscode-markdownlint",
+		"bierner.markdown-preview-github-styles",
+		"streetsidesoftware.code-spell-checker",
+		"streetsidesoftware.code-spell-checker-russian",
+		"vivaxy.vscode-conventional-commits",
+		"bewhite.dokd-vscode-preview",
+		"usernamehw.errorlens",
+		"1c-syntax.language-1c-bsl"
+	]
+}

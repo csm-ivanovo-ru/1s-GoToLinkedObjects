@@ -1,0 +1,36 @@
+{
+	"files.exclude": {
+		".git": true,
+		"node_modules/": true,
+		"**/Thumbs.db": true,
+		"Thumbs.db": true
+	},
+	"editor.linkedEditing": true,
+	"editor.folding": true,
+	"editor.foldingHighlight": true,
+	"editor.foldingStrategy": "auto",
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": false,
+	"files.trimTrailingWhitespace": true,
+	"files.insertFinalNewline": true,
+	"task.autoDetect": "off",
+	"conventionalCommits.autoCommit": false,
+	// "conventionalCommits.emojiFormat": "",
+	"conventionalCommits.gitmoji": true,
+	"conventionalCommits.lineBreak": "\n",
+	"conventionalCommits.promptBody": true,
+	"conventionalCommits.promptFooter": true,
+	"conventionalCommits.promptScopes": true,
+	"conventionalCommits.scopes": [
+		"ext",
+		"vscode",
+		"git",
+		"github",
+		"github-actions",
+		"deps",
+		"other",
+		"changelog",
+		"readme"
+	],
+	"conventionalCommits.showEditor": false
+}

@@ -1,0 +1,28 @@
+{
+	"version": "0.2",
+	"ignorePaths": [
+		".git",
+		".git/**",
+		".vscode/*",
+		"node_modules",
+		"**/node_modules",
+		"**/node_modules/**",
+		"node_modules/**"
+	],
+	"language": "ru,en",
+	"dictionaries": [],
+	"words": [
+		"Betke",
+		"choco",
+		"codeql",
+		"commitlint",
+		"dependabot",
+		"deps",
+		"editorconfig",
+		"endregion",
+		"markdownlint",
+		"precommit"
+	],
+	"ignoreRegExpList": [],
+	"enableFiletypes": []
+}
