@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<InformationRegister uuid="ab56904c-edfa-4b86-a254-21dff2f67e58">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.НастройкиТранспортаОбменаДанными" category="Record">
+				<xr:TypeId>83b39478-ad4c-4236-baf6-5d74109dab28</xr:TypeId>
+				<xr:ValueId>92811323-d6cc-41d5-9e61-b425b66bf402</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.НастройкиТранспортаОбменаДанными" category="Manager">
+				<xr:TypeId>13dffbc7-6102-4216-abfe-80a9f7641614</xr:TypeId>
+				<xr:ValueId>52a2455b-6f88-4bc6-9e61-9a3b2201eda5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.НастройкиТранспортаОбменаДанными" category="Selection">
+				<xr:TypeId>5065d87b-c5ef-484b-a0b2-fea83911ba6e</xr:TypeId>
+				<xr:ValueId>8a74f8dc-2d37-4c25-b0a6-17666601a779</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.НастройкиТранспортаОбменаДанными" category="List">
+				<xr:TypeId>6f32b044-b9aa-4294-9c79-a6c921f19f22</xr:TypeId>
+				<xr:ValueId>29eac1f9-0428-4a1e-ba1d-db6dc13c61e6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.НастройкиТранспортаОбменаДанными" category="RecordSet">
+				<xr:TypeId>72b77166-de3f-4a07-a95a-88e2fc428e36</xr:TypeId>
+				<xr:ValueId>d544d48d-cc30-4f5b-ac0a-79ee21cf5bd8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.НастройкиТранспортаОбменаДанными" category="RecordKey">
+				<xr:TypeId>62d53c0f-5f53-43ee-8eb9-2f35c59d4ac2</xr:TypeId>
+				<xr:ValueId>5f492b34-a574-4445-ba6f-3a44f2d9c3ec</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.НастройкиТранспортаОбменаДанными" category="RecordManager">
+				<xr:TypeId>935b8ee8-1554-4ea1-805f-edf5cf5eaf94</xr:TypeId>
+				<xr:ValueId>57fb5a9c-652e-4028-8e0a-4b1898ff43d3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НастройкиТранспортаОбменаДанными</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>83c860a2-d0d7-4b7c-a127-78d86b155cfa</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="627234f8-b383-4137-a1d0-722952097cbb">
+				<InternalInfo/>
+				<Properties>
+					<Name>COMИмяИнформационнойБазыНаСервере1СПредприятия</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>faa44953-118b-4027-a913-c485bca7a93f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="898ee0c6-3317-4b5a-a0e2-e3fbdb1096f9">
+				<InternalInfo/>
+				<Properties>
+					<Name>COMИмяСервера1СПредприятия</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>d039bfa4-39a0-43d4-ab6a-0697f9d2b375</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="6acf9223-0a47-4251-bfae-a36f67da6d63">
+				<InternalInfo/>
+				<Properties>
+					<Name>Корреспондент</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>7e9fadd6-d0ad-4856-a195-1058f00bf488</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:ExchangePlanRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

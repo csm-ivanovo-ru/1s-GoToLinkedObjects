@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="cb1a3629-9ebc-4e64-b2d6-0349cc6403e2">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЮридическиеЛица" category="Object">
+				<xr:TypeId>00ab0abe-ffe2-4107-af90-da5f9d251937</xr:TypeId>
+				<xr:ValueId>5d81b82c-b749-4165-9921-be11e2dde772</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЮридическиеЛица" category="Ref">
+				<xr:TypeId>8bf60e7e-a381-4cc4-9c61-dbda437193d8</xr:TypeId>
+				<xr:ValueId>272a6230-57b2-4478-b00a-5c13c555d166</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЮридическиеЛица" category="Selection">
+				<xr:TypeId>43dfa3fb-fd9c-4ed2-8bf1-9fe1da474cc9</xr:TypeId>
+				<xr:ValueId>c5f6d425-003c-4834-a735-3067733d5db6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЮридическиеЛица" category="List">
+				<xr:TypeId>66fd1928-efc2-4318-b896-0a81697602d9</xr:TypeId>
+				<xr:ValueId>fc3f2fde-bc2f-480c-9407-4b8fa97e3e4a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЮридическиеЛица" category="Manager">
+				<xr:TypeId>f096b2cb-3545-4aee-aa94-093962d59481</xr:TypeId>
+				<xr:ValueId>2cbeadde-dd37-4d6c-987d-ad43d9f61244</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЮридическиеЛица</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>27b33b9e-edcc-49ec-9634-2a0a3a01fc40</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>
