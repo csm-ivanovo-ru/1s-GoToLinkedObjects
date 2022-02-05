@@ -11,7 +11,7 @@
 		<Metadata name="Catalog.ФизическиеЛица" id="401a739c-c81a-46b8-a88e-cd0138fbd9ca" configVersion="18eb04d0a182ab197a25f64d9b40a2a1f79d3101"/>
 		<Metadata name="Catalog.ЮридическиеЛица" id="cb1a3629-9ebc-4e64-b2d6-0349cc6403e2" configVersion="9dd8ee736df8554d7ad402901ed920a203a1e5b4"/>
 		<Metadata name="CommonCommand.ППСО_ПерейтиКСопоставленномуОбъекту" id="38e0162a-55c2-4848-821a-a97c27500619" configVersion="f7ef29a8fc74dd13599d097b3bb56eeb95ed50b7"/>
-		<Metadata name="CommonCommand.ППСО_ПерейтиКСопоставленномуОбъекту.CommandModule" id="38e0162a-55c2-4848-821a-a97c27500619.2" configVersion="d98c2e08d9e02770f45c5d05c5ebaf613e3f2070"/>
+		<Metadata name="CommonCommand.ППСО_ПерейтиКСопоставленномуОбъекту.CommandModule" id="38e0162a-55c2-4848-821a-a97c27500619.2" configVersion="9a6dd8334164f6f9e1785afba6010ebf19fb0401"/>
 		<Metadata name="Configuration.ПоддержкаПереходаКСопоставленнымОбъектам" id="240694d2-a897-4ac9-a290-80104238400f" configVersion="c46be42df093a073def4ac4d8066b076f7adca47"/>
 		<Metadata name="Document.АктОбОказанииУслуг" id="2e3c61d0-1278-4bff-907f-40717e3053f3" configVersion="7ea904edee208ccf97fffac980f03b457e6e37be"/>
 		<Metadata name="Document.КассовоеПоступление" id="acfe1edb-ca66-4ec3-b117-2107376c383f" configVersion="d16df485da7eb5af3a1fd5b426c5254918e9aeeb"/>
