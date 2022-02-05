@@ -93,6 +93,7 @@
 			<CommonModule>СтроковыеФункцииКлиентСервер</CommonModule>
 			<ExchangePlan>ОбменБГУ2ЕМП</ExchangePlan>
 			<CommonCommand>ППСО_ПерейтиКСопоставленномуОбъекту</CommonCommand>
+			<CommandGroup>СинхронизацияДанных</CommandGroup>
 			<Catalog>БанковскиеИКазначейскиеСчета</Catalog>
 			<Catalog>Договоры</Catalog>
 			<Catalog>Контрагенты</Catalog>

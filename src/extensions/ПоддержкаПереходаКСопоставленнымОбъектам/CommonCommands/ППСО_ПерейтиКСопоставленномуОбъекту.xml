@@ -6,12 +6,12 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>В ЕМП</v8:content>
+					<v8:content>Перейти в ЕМП</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment>Переход к сопоставленному объекту в других информационных базах</Comment>
-			<Group>FormNavigationPanelGoTo</Group>
-			<Representation>Auto</Representation>
+			<Group>CommandGroup.СинхронизацияДанных</Group>
+			<Representation>Text</Representation>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>

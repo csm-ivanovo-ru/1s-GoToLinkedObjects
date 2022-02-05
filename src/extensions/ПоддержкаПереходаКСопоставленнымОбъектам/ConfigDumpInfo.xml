@@ -10,12 +10,13 @@
 		<Metadata name="Catalog.Сотрудники" id="8eeb2022-b7a4-406f-a893-f30a964bbf51" configVersion="a4931aa02e747769ffdcc6bc105b0e284f7d3d8c"/>
 		<Metadata name="Catalog.ФизическиеЛица" id="401a739c-c81a-46b8-a88e-cd0138fbd9ca" configVersion="18eb04d0a182ab197a25f64d9b40a2a1f79d3101"/>
 		<Metadata name="Catalog.ЮридическиеЛица" id="cb1a3629-9ebc-4e64-b2d6-0349cc6403e2" configVersion="9dd8ee736df8554d7ad402901ed920a203a1e5b4"/>
-		<Metadata name="CommonCommand.ППСО_ПерейтиКСопоставленномуОбъекту" id="38e0162a-55c2-4848-821a-a97c27500619" configVersion="f7ef29a8fc74dd13599d097b3bb56eeb95ed50b7"/>
+		<Metadata name="CommandGroup.СинхронизацияДанных" id="e6ecaf22-ba5e-4f58-9aac-80287d3628b1" configVersion="a050326e643544ef74ab985532882bc404f4bc70"/>
+		<Metadata name="CommonCommand.ППСО_ПерейтиКСопоставленномуОбъекту" id="38e0162a-55c2-4848-821a-a97c27500619" configVersion="977d7b78998a10be338c7960d896207c84595d02"/>
 		<Metadata name="CommonCommand.ППСО_ПерейтиКСопоставленномуОбъекту.CommandModule" id="38e0162a-55c2-4848-821a-a97c27500619.2" configVersion="e600dd28e21e1f7fa6220a39d5785df1fd694948"/>
 		<Metadata name="CommonModule.ОбщегоНазначения" id="b3c7688c-52eb-42eb-8730-032132435816" configVersion="3bed5b36f78a6bc6b397a8b303c9ce80c8fd064b"/>
 		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер" id="0da6b91b-1124-46b1-b147-6f2063c33205" configVersion="b6deb8bb42bce8914722c93686e0273f1ca8c7c7"/>
 		<Metadata name="CommonModule.СтроковыеФункцииКлиентСервер" id="26525378-f32d-4435-818f-222a3a457b92" configVersion="47aa8b9f9e75af72215bbe6d64d17b8ffec38a35"/>
-		<Metadata name="Configuration.ПоддержкаПереходаКСопоставленнымОбъектам" id="240694d2-a897-4ac9-a290-80104238400f" configVersion="862a79d371e2f0fc939bcfee4c1ef3bc2f6122a5"/>
+		<Metadata name="Configuration.ПоддержкаПереходаКСопоставленнымОбъектам" id="240694d2-a897-4ac9-a290-80104238400f" configVersion="95ab73992272ffebde90466499b5f969b010853e"/>
 		<Metadata name="Document.АктОбОказанииУслуг" id="2e3c61d0-1278-4bff-907f-40717e3053f3" configVersion="7ea904edee208ccf97fffac980f03b457e6e37be"/>
 		<Metadata name="Document.КассовоеПоступление" id="acfe1edb-ca66-4ec3-b117-2107376c383f" configVersion="d16df485da7eb5af3a1fd5b426c5254918e9aeeb"/>
 		<Metadata name="Document.ПриходныйКассовыйОрдер" id="6bd99b70-e715-4393-ac4d-605d1d33644a" configVersion="06c00b1aaafb05583f494987c98d7f4b1fe7488d"/>
@@ -42,6 +43,6 @@
 		<Metadata name="Role.ППСО_ИспользованиеПереходаКСопоставленнымОбъектамИБ" id="f6c149f9-dbac-4d29-87cc-621481e6a9e5" configVersion="88a9c7823f6b6450f114554b1cc03a81de1c6035"/>
 		<Metadata name="Subsystem.ОбменДаннымиСАйсберг" id="fb622cc2-5d7c-41c0-8020-c8408d30570e" configVersion="3d171f4a5031651b415c3932c82ddefda58d04ad"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемы" id="12b68ef0-aa69-41a9-a447-af0ce37fd3e7" configVersion="fb540bf19d88120f137c234be85286b31b5cf7e6"/>
-		<Metadata name="Subsystem.СтандартныеПодсистемы.Subsystem.ОбменДанными" id="c36b6db5-fea7-434c-84b9-7adee7552264" configVersion="e3c185f9337e9fd8b55f9363276da7916696de3a"/>
+		<Metadata name="Subsystem.СтандартныеПодсистемы.Subsystem.ОбменДанными" id="c36b6db5-fea7-434c-84b9-7adee7552264" configVersion="f18de0d0c93fa690f66afe376cdb0b0f12c3c24b"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
