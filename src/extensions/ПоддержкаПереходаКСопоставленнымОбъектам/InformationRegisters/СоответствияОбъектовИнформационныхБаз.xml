@@ -39,6 +39,79 @@
 			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
 			<WriteMode>Independent</WriteMode>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Dimension uuid="0e82110c-5ec5-4f8f-9f64-873402b404f7">
+				<InternalInfo/>
+				<Properties>
+					<Name>ТипИсточника</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>dd345cfb-ea0c-4ea8-9b35-22547b000275</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="ea816a13-1929-4246-a827-3b1408061340">
+				<InternalInfo/>
+				<Properties>
+					<Name>ТипПриемника</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>af02f534-8508-4f9f-bcc1-0c6f3d696971</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="b1880e3f-6dfb-470d-b4e8-78f07fc6c735">
+				<InternalInfo/>
+				<Properties>
+					<Name>УзелИнформационнойБазы</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>a71d9c41-7510-4d38-90df-1034977b8f45</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:ExchangePlanRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="50b1c786-e299-4dfd-ac61-24fad3659766">
+				<InternalInfo/>
+				<Properties>
+					<Name>УникальныйИдентификаторИсточника</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>25830f5b-27e2-4eff-9728-b21eb498727d</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="dfeb6ad3-62fd-4e7b-9baa-aa448fcb4e59">
+				<InternalInfo/>
+				<Properties>
+					<Name>УникальныйИдентификаторПриемника</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>379c9295-d0d5-418d-82f3-5ae19985cc53</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>36</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>

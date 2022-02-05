@@ -88,6 +88,9 @@
 			<Subsystem>ОбменДаннымиСАйсберг</Subsystem>
 			<Role>ППСО_ИспользованиеПереходаКСопоставленнымОбъектамИБ</Role>
 			<Role>ВыполнениеСинхронизацииДанных</Role>
+			<CommonModule>ОбщегоНазначения</CommonModule>
+			<CommonModule>ОбщегоНазначенияКлиентСервер</CommonModule>
+			<CommonModule>СтроковыеФункцииКлиентСервер</CommonModule>
 			<ExchangePlan>ОбменБГУ2ЕМП</ExchangePlan>
 			<CommonCommand>ППСО_ПерейтиКСопоставленномуОбъекту</CommonCommand>
 			<Catalog>БанковскиеИКазначейскиеСчета</Catalog>
@@ -106,6 +109,7 @@
 			<Document>СчетФактураВыданный</Document>
 			<Document>ЧекККМ</Document>
 			<Document>ЭквайринговаяОперация</Document>
+			<InformationRegister>НастройкиТранспортаОбменаДанными</InformationRegister>
 			<InformationRegister>СоответствияОбъектовИнформационныхБаз</InformationRegister>
 		</ChildObjects>
 	</Configuration>
