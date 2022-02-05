@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Document uuid="b1076358-1215-4840-8f7b-c2b352ac2d99">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СчетНаОплату" category="Object">
+				<xr:TypeId>96624331-ed82-4cd2-8c00-f0020215af70</xr:TypeId>
+				<xr:ValueId>60101a20-bf4c-4884-9b75-bbd9ca76dcb0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СчетНаОплату" category="Ref">
+				<xr:TypeId>af91ff14-e3d9-4e7c-bd7d-0f66552fe5a4</xr:TypeId>
+				<xr:ValueId>794055ae-3ce7-4e5e-ae30-942041d9e627</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СчетНаОплату" category="Selection">
+				<xr:TypeId>ac5b51c2-922d-42a4-9757-cae7b757b65a</xr:TypeId>
+				<xr:ValueId>0881ac2b-3c98-4d57-b9ac-429336c4bf57</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СчетНаОплату" category="List">
+				<xr:TypeId>4c4f21a8-7bb8-40e1-9321-24dc0239d2d0</xr:TypeId>
+				<xr:ValueId>1c68dfd3-f787-4a7a-af7a-286211d06396</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СчетНаОплату" category="Manager">
+				<xr:TypeId>e6dde75a-e83c-4d10-a800-7613a44a7967</xr:TypeId>
+				<xr:ValueId>68a36a03-83c6-485a-852a-b36f9dcc2b79</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СчетНаОплату</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>783944d3-a5f0-4344-84b3-5596741a217f</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

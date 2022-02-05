@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.11">
+	<ConfigVersions>
+		<Metadata name="Catalog.БанковскиеИКазначейскиеСчета" id="f87ca07c-8958-44fc-90ff-5c5d0329a7e2" configVersion="1810f46e341a3be063b26e85772ae6739f7a7241"/>
+		<Metadata name="Catalog.Договоры" id="1584fbc3-7d5a-40c1-881f-2efbf3a50594" configVersion="2f1283d223ea928e1a70539c705efcd261d8886f"/>
+		<Metadata name="Catalog.Контрагенты" id="1b258941-d56b-4b60-8198-68dc39d6fb53" configVersion="7ed9536b126d6a45a6d8db99594a64ebc9f4fad5"/>
+		<Metadata name="Catalog.Организации" id="49287ebd-362a-4d34-8b3a-896adcbb5f4b" configVersion="577ff9a57f00c30069c5f8bf04d2a5dbbbb0bbda"/>
+		<Metadata name="Catalog.Подразделения" id="038a9fe6-f9b0-48fd-9ba5-529e3149e940" configVersion="9d8fd5d765ad2cf08ddb46fb92cb6f15fca76caa"/>
+		<Metadata name="Catalog.Пользователи" id="4a029cc4-2223-4bc2-9e5f-178dded01ed9" configVersion="4a189630dc6731748187830693ca8c29007f697e"/>
+		<Metadata name="Catalog.Сотрудники" id="8eeb2022-b7a4-406f-a893-f30a964bbf51" configVersion="a4931aa02e747769ffdcc6bc105b0e284f7d3d8c"/>
+		<Metadata name="Catalog.ФизическиеЛица" id="401a739c-c81a-46b8-a88e-cd0138fbd9ca" configVersion="18eb04d0a182ab197a25f64d9b40a2a1f79d3101"/>
+		<Metadata name="Catalog.ЮридическиеЛица" id="cb1a3629-9ebc-4e64-b2d6-0349cc6403e2" configVersion="9dd8ee736df8554d7ad402901ed920a203a1e5b4"/>
+		<Metadata name="CommonCommand.ППСО_ПерейтиКСопоставленномуОбъекту" id="38e0162a-55c2-4848-821a-a97c27500619" configVersion="f7ef29a8fc74dd13599d097b3bb56eeb95ed50b7"/>
+		<Metadata name="CommonCommand.ППСО_ПерейтиКСопоставленномуОбъекту.CommandModule" id="38e0162a-55c2-4848-821a-a97c27500619.2" configVersion="d98c2e08d9e02770f45c5d05c5ebaf613e3f2070"/>
+		<Metadata name="Configuration.ПоддержкаПереходаКСопоставленнымОбъектам" id="240694d2-a897-4ac9-a290-80104238400f" configVersion="c46be42df093a073def4ac4d8066b076f7adca47"/>
+		<Metadata name="Document.АктОбОказанииУслуг" id="2e3c61d0-1278-4bff-907f-40717e3053f3" configVersion="7ea904edee208ccf97fffac980f03b457e6e37be"/>
+		<Metadata name="Document.КассовоеПоступление" id="acfe1edb-ca66-4ec3-b117-2107376c383f" configVersion="d16df485da7eb5af3a1fd5b426c5254918e9aeeb"/>
+		<Metadata name="Document.ПриходныйКассовыйОрдер" id="6bd99b70-e715-4393-ac4d-605d1d33644a" configVersion="06c00b1aaafb05583f494987c98d7f4b1fe7488d"/>
+		<Metadata name="Document.СчетНаОплату" id="b1076358-1215-4840-8f7b-c2b352ac2d99" configVersion="618814b2741425f5d3224d56830bef958821d3f2"/>
+		<Metadata name="Document.СчетФактураВыданный" id="5a7bdf01-9ee6-4f2e-9be1-76a51ca09b3d" configVersion="7649ba61d6fbf51452008aaae6adbe52af8e4fea"/>
+		<Metadata name="Document.ЧекККМ" id="ebc4ca43-04ef-49bc-9183-15fbca7eaaab" configVersion="6162f198b67a2ca36ecd3b476eb2aabca94fd11f"/>
+		<Metadata name="Document.ЭквайринговаяОперация" id="c387a3ac-a78a-4078-9319-d1fa97d28980" configVersion="58d2d6f98aca929b98c861bc8fcbd919901be43a"/>
+		<Metadata name="ExchangePlan.ОбменБГУ2ЕМП" id="a97f931a-91d4-4f15-a267-be207689e4e7" configVersion="778375f0e0a6b098bc20a61f287280241c01aae6"/>
+		<Metadata name="InformationRegister.СоответствияОбъектовИнформационныхБаз" id="ceedfaaf-2758-4c0e-b291-6c561b211a02" configVersion="62e3fb8f6f4707f2ada9d8c5267c01a5a2712166"/>
+		<Metadata name="Language.Русский" id="0883738b-3b46-4871-8c4f-bd5f5297b8d1" configVersion="6bc32fc32e93ebb4a2eb8f58f288de1c73453044"/>
+		<Metadata name="Role.ВыполнениеСинхронизацииДанных" id="92fd661b-8fda-4096-b8cf-bef3c7bcc043" configVersion="93629a485ddcef05baaeb87e42f65cf76af4288b"/>
+		<Metadata name="Role.ВыполнениеСинхронизацииДанных.Rights" id="92fd661b-8fda-4096-b8cf-bef3c7bcc043.0" configVersion="cbf421bfcdc196c4cdc28af853a4ff4d20a798d6"/>
+		<Metadata name="Role.ППСО_ИспользованиеПереходаКСопоставленнымОбъектамИБ" id="f6c149f9-dbac-4d29-87cc-621481e6a9e5" configVersion="88a9c7823f6b6450f114554b1cc03a81de1c6035"/>
+		<Metadata name="Subsystem.ОбменДаннымиСАйсберг" id="fb622cc2-5d7c-41c0-8020-c8408d30570e" configVersion="3d171f4a5031651b415c3932c82ddefda58d04ad"/>
+		<Metadata name="Subsystem.СтандартныеПодсистемы" id="12b68ef0-aa69-41a9-a447-af0ce37fd3e7" configVersion="fb540bf19d88120f137c234be85286b31b5cf7e6"/>
+		<Metadata name="Subsystem.СтандартныеПодсистемы.Subsystem.ОбменДанными" id="c36b6db5-fea7-434c-84b9-7adee7552264" configVersion="c8901331581b1ce40973ef7d3d84a52de6c91181"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
