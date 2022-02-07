@@ -29,7 +29,6 @@
 				<v8:Type>cfg:CatalogRef.Договоры</v8:Type>
 				<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
 				<v8:Type>cfg:CatalogRef.Подразделения</v8:Type>
-				<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
 				<v8:Type>cfg:DocumentRef.ЭквайринговаяОперация</v8:Type>
 				<v8:Type>cfg:CatalogRef.ЮридическиеЛица</v8:Type>
 				<v8:Type>cfg:DocumentRef.СчетНаОплату</v8:Type>
