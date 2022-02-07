@@ -8,6 +8,15 @@
 
 ## [Unreleased] Неопубликованные изменения (не вошедшие в релиз)
 
+## [1.0.1]
+
+### Исправлено
+
+- исправлена ошибка нарушения прав доступа при выполнении
+  общей команды `ППСО_ПерейтиКСопоставленномуОбъекту`
+  при отсутствии роли "Синхронизация данных"
+  [#5](https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/issues/5)
+
 ## [1.0.0]
 
 ### Добавлено
@@ -15,7 +24,9 @@
 - добавлена общая команда `ППСО_ПерейтиКСопоставленномуОбъекту`,
   размещена в панели формы "Синхронизация данных".
   Команда осуществляет переход к сопоставленному объекту в ЕМП
+  [#2](https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/issues/2)
 - реквизиты доступа к ЕМП загружаются из регистра `НастройкиТранспортаОбменаДанными`
 
-[Unreleased]: https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/compare/1.0.0...HEAD
+[Unreleased]: https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/compare/1.0.1...HEAD
+[1.0.1]: https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/compare/1.0.1...1.0.0
 [1.0.0]: https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/releases/tag/1.0.0
