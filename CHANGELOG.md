@@ -8,6 +8,19 @@
 
 ## [Unreleased] Неопубликованные изменения (не вошедшие в релиз)
 
+## [1.0.2]
+
+### Исправлено
+
+- убрана поддержка команды для справочника Пользователи
+  [#4](https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/issues/4)
+
+### Изменено
+
+- серия запросов к БД заменена на один запрос
+  (в том числе в целях дальнейшей поддержки нескольких синхронизируемых
+  информационных баз)
+
 ## [1.0.1]
 
 ### Исправлено
@@ -27,6 +40,7 @@
   [#2](https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/issues/2)
 - реквизиты доступа к ЕМП загружаются из регистра `НастройкиТранспортаОбменаДанными`
 
-[Unreleased]: https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/compare/1.0.1...HEAD
-[1.0.1]: https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/compare/1.0.1...1.0.0
+[Unreleased]: https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/compare/1.0.2...HEAD
+[1.0.2]: https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/compare/1.0.1...1.0.2
+[1.0.1]: https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/compare/1.0.0...1.0.1
 [1.0.0]: https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/releases/tag/1.0.0
