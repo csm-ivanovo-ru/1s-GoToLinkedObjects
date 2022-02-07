@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ФБУ "Ивановский ЦСМ"</Vendor>
-			<Version>1.0.1</Version>
+			<Version>1.0.2</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation>
 				<v8:item>
@@ -97,7 +97,6 @@
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Организации</Catalog>
 			<Catalog>Подразделения</Catalog>
-			<Catalog>Пользователи</Catalog>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>ЮридическиеЛица</Catalog>

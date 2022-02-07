@@ -6,17 +6,16 @@
 		<Metadata name="Catalog.Контрагенты" id="1b258941-d56b-4b60-8198-68dc39d6fb53" configVersion="7ed9536b126d6a45a6d8db99594a64ebc9f4fad5"/>
 		<Metadata name="Catalog.Организации" id="49287ebd-362a-4d34-8b3a-896adcbb5f4b" configVersion="577ff9a57f00c30069c5f8bf04d2a5dbbbb0bbda"/>
 		<Metadata name="Catalog.Подразделения" id="038a9fe6-f9b0-48fd-9ba5-529e3149e940" configVersion="9d8fd5d765ad2cf08ddb46fb92cb6f15fca76caa"/>
-		<Metadata name="Catalog.Пользователи" id="4a029cc4-2223-4bc2-9e5f-178dded01ed9" configVersion="4a189630dc6731748187830693ca8c29007f697e"/>
 		<Metadata name="Catalog.Сотрудники" id="8eeb2022-b7a4-406f-a893-f30a964bbf51" configVersion="a4931aa02e747769ffdcc6bc105b0e284f7d3d8c"/>
 		<Metadata name="Catalog.ФизическиеЛица" id="401a739c-c81a-46b8-a88e-cd0138fbd9ca" configVersion="18eb04d0a182ab197a25f64d9b40a2a1f79d3101"/>
 		<Metadata name="Catalog.ЮридическиеЛица" id="cb1a3629-9ebc-4e64-b2d6-0349cc6403e2" configVersion="9dd8ee736df8554d7ad402901ed920a203a1e5b4"/>
 		<Metadata name="CommandGroup.СинхронизацияДанных" id="e6ecaf22-ba5e-4f58-9aac-80287d3628b1" configVersion="a050326e643544ef74ab985532882bc404f4bc70"/>
-		<Metadata name="CommonCommand.ППСО_ПерейтиКСопоставленномуОбъекту" id="38e0162a-55c2-4848-821a-a97c27500619" configVersion="977d7b78998a10be338c7960d896207c84595d02"/>
+		<Metadata name="CommonCommand.ППСО_ПерейтиКСопоставленномуОбъекту" id="38e0162a-55c2-4848-821a-a97c27500619" configVersion="55152881de87a39afa0c6d2d92149870575c6e24"/>
 		<Metadata name="CommonCommand.ППСО_ПерейтиКСопоставленномуОбъекту.CommandModule" id="38e0162a-55c2-4848-821a-a97c27500619.2" configVersion="2bc26a085fed6ca17fe18a3f2651f5eefbe2dec4"/>
 		<Metadata name="CommonModule.ОбщегоНазначения" id="b3c7688c-52eb-42eb-8730-032132435816" configVersion="3bed5b36f78a6bc6b397a8b303c9ce80c8fd064b"/>
 		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер" id="0da6b91b-1124-46b1-b147-6f2063c33205" configVersion="b6deb8bb42bce8914722c93686e0273f1ca8c7c7"/>
 		<Metadata name="CommonModule.СтроковыеФункцииКлиентСервер" id="26525378-f32d-4435-818f-222a3a457b92" configVersion="47aa8b9f9e75af72215bbe6d64d17b8ffec38a35"/>
-		<Metadata name="Configuration.ПоддержкаПереходаКСопоставленнымОбъектам" id="240694d2-a897-4ac9-a290-80104238400f" configVersion="13010c7296f243ed76758c9a4ca2bb348b845f44"/>
+		<Metadata name="Configuration.ПоддержкаПереходаКСопоставленнымОбъектам" id="240694d2-a897-4ac9-a290-80104238400f" configVersion="342df3df2582291b1e8b072cb0e65e21a7b2801b"/>
 		<Metadata name="Document.АктОбОказанииУслуг" id="2e3c61d0-1278-4bff-907f-40717e3053f3" configVersion="7ea904edee208ccf97fffac980f03b457e6e37be"/>
 		<Metadata name="Document.КассовоеПоступление" id="acfe1edb-ca66-4ec3-b117-2107376c383f" configVersion="d16df485da7eb5af3a1fd5b426c5254918e9aeeb"/>
 		<Metadata name="Document.ПриходныйКассовыйОрдер" id="6bd99b70-e715-4393-ac4d-605d1d33644a" configVersion="06c00b1aaafb05583f494987c98d7f4b1fe7488d"/>
