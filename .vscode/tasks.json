@@ -1,0 +1,35 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	"version": "2.0.0",
+	"type": "shell",
+	"request": "launch",
+	"presentation": {
+		"reveal": "always",
+		"focus": false,
+		"echo": true,
+		"panel": "shared",
+		"clear": true
+	},
+	"tasks": [
+		{
+			"label": "Install tools",
+			"command": "install/install.cmd",
+			"options": {
+				"cwd": "${workspaceRoot}"
+			},
+			"presentation": {
+				"reveal": "always",
+				"clear": true
+			}
+		},
+		{
+			"label": "Собрать файлы расширений 1С:Предприятия",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"command": "precommit1c --compile --use-designer \"src\\extensions\\ПоддержкаПереходаКСопоставленнымОбъектам\" \"extensions\""
+		}
+	]
+}
