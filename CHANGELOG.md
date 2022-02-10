@@ -8,6 +8,26 @@
 
 ## [Unreleased] Неопубликованные изменения (не вошедшие в релиз)
 
+## [1.1.0]
+
+### Добавлено
+
+- добавлена общая команда `ППСО_СопоставленныеОбъекты`,
+  выполняющая переход из формы синхронизируемых объектов
+  в форму списка регистра `СоответствияОбъектовИнформационныхБаз`
+  с отбором по текущему объекту и по первой синхронизируемой базе
+  в плане обмена `ОбменБГУ2ЕМП`
+  [#7](https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/issues/7)
+
+### Изменено
+
+- дополнительно заимствована роль `ПолныеПрава`,
+  предоставлены права использования команды
+  `ППСО_ПерейтиКСопоставленномуОбъекту`
+- дополнительно заимствована роль `АдминистраторСистемы`,
+  предоставлены права использования команды
+  `ППСО_ПерейтиКСопоставленномуОбъекту`
+
 ## [1.0.2]
 
 ### Исправлено
@@ -40,7 +60,8 @@
   [#2](https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/issues/2)
 - реквизиты доступа к ЕМП загружаются из регистра `НастройкиТранспортаОбменаДанными`
 
-[Unreleased]: https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/compare/1.0.2...HEAD
+[Unreleased]: https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/compare/1.1.0...HEAD
+[1.1.0]: https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/compare/1.0.2...1.1.0
 [1.0.2]: https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/compare/1.0.1...1.0.2
 [1.0.1]: https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/compare/1.0.0...1.0.1
 [1.0.0]: https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/releases/tag/1.0.0
