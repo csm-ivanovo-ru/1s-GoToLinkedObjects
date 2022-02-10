@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ФБУ "Ивановский ЦСМ"</Vendor>
-			<Version>1.0.1</Version>
+			<Version>1.1.0</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation>
 				<v8:item>
@@ -84,20 +84,23 @@
 			<Language>Русский</Language>
 			<Subsystem>СтандартныеПодсистемы</Subsystem>
 			<Subsystem>ОбменДаннымиСАйсберг</Subsystem>
-			<Role>ППСО_ИспользованиеПереходаКСопоставленнымОбъектамИБ</Role>
+			<Subsystem>ППСО_РаботаССинхронизируемымиОбъектами</Subsystem>
+			<Role>АдминистраторСистемы</Role>
 			<Role>ВыполнениеСинхронизацииДанных</Role>
+			<Role>ПолныеПрава</Role>
+			<Role>ППСО_ИспользованиеПереходаКСопоставленнымОбъектамИБ</Role>
 			<CommonModule>ОбщегоНазначения</CommonModule>
 			<CommonModule>ОбщегоНазначенияКлиентСервер</CommonModule>
 			<CommonModule>СтроковыеФункцииКлиентСервер</CommonModule>
 			<ExchangePlan>ОбменБГУ2ЕМП</ExchangePlan>
 			<CommonCommand>ППСО_ПерейтиКСопоставленномуОбъекту</CommonCommand>
+			<CommonCommand>ППСО_СопоставленныеОбъекты</CommonCommand>
 			<CommandGroup>СинхронизацияДанных</CommandGroup>
 			<Catalog>БанковскиеИКазначейскиеСчета</Catalog>
 			<Catalog>Договоры</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Организации</Catalog>
 			<Catalog>Подразделения</Catalog>
-			<Catalog>Пользователи</Catalog>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>ЮридическиеЛица</Catalog>
