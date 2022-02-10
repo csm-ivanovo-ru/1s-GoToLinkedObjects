@@ -4,6 +4,13 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
+		<name>CommonCommand.ППСО_СопоставленныеОбъекты</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Configuration.ПоддержкаПереходаКСопоставленнымОбъектам</name>
 		<right>
 			<name>MainWindowModeNormal</name>
