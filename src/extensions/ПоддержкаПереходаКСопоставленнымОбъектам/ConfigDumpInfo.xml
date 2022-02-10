@@ -12,12 +12,10 @@
 		<Metadata name="CommandGroup.СинхронизацияДанных" id="e6ecaf22-ba5e-4f58-9aac-80287d3628b1" configVersion="a050326e643544ef74ab985532882bc404f4bc70"/>
 		<Metadata name="CommonCommand.ППСО_ПерейтиКСопоставленномуОбъекту" id="38e0162a-55c2-4848-821a-a97c27500619" configVersion="55152881de87a39afa0c6d2d92149870575c6e24"/>
 		<Metadata name="CommonCommand.ППСО_ПерейтиКСопоставленномуОбъекту.CommandModule" id="38e0162a-55c2-4848-821a-a97c27500619.2" configVersion="4a81795aea8e30696fea90474cdb7311247031f8"/>
-		<Metadata name="CommonCommand.ППСО_СопоставленныеОбъекты" id="0f416a69-01f4-4b94-b578-87a777b02b71" configVersion="872c9b0535f26984640625778dce13db260930cd"/>
-		<Metadata name="CommonCommand.ППСО_СопоставленныеОбъекты.CommandModule" id="0f416a69-01f4-4b94-b578-87a777b02b71.2" configVersion="42c2672ebe0c3ff51361b6487ba72138c4f888cd"/>
 		<Metadata name="CommonModule.ОбщегоНазначения" id="b3c7688c-52eb-42eb-8730-032132435816" configVersion="3bed5b36f78a6bc6b397a8b303c9ce80c8fd064b"/>
 		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер" id="0da6b91b-1124-46b1-b147-6f2063c33205" configVersion="b6deb8bb42bce8914722c93686e0273f1ca8c7c7"/>
 		<Metadata name="CommonModule.СтроковыеФункцииКлиентСервер" id="26525378-f32d-4435-818f-222a3a457b92" configVersion="47aa8b9f9e75af72215bbe6d64d17b8ffec38a35"/>
-		<Metadata name="Configuration.ПоддержкаПереходаКСопоставленнымОбъектам" id="240694d2-a897-4ac9-a290-80104238400f" configVersion="42bc75a69105ea8c26cbc8e15d6140e579914e07"/>
+		<Metadata name="Configuration.ПоддержкаПереходаКСопоставленнымОбъектам" id="240694d2-a897-4ac9-a290-80104238400f" configVersion="342df3df2582291b1e8b072cb0e65e21a7b2801b"/>
 		<Metadata name="Document.АктОбОказанииУслуг" id="2e3c61d0-1278-4bff-907f-40717e3053f3" configVersion="7ea904edee208ccf97fffac980f03b457e6e37be"/>
 		<Metadata name="Document.КассовоеПоступление" id="acfe1edb-ca66-4ec3-b117-2107376c383f" configVersion="d16df485da7eb5af3a1fd5b426c5254918e9aeeb"/>
 		<Metadata name="Document.ПриходныйКассовыйОрдер" id="6bd99b70-e715-4393-ac4d-605d1d33644a" configVersion="06c00b1aaafb05583f494987c98d7f4b1fe7488d"/>
