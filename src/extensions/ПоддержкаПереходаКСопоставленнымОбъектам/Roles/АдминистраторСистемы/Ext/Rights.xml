@@ -44,4 +44,11 @@
 			<value>true</value>
 		</right>
 	</object>
+	<object>
+		<name>Subsystem.ППСО_ДиагностикаОбменаДанными</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
 </Rights>

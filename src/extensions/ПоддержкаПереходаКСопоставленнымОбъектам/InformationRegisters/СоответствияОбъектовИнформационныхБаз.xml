@@ -36,10 +36,40 @@
 			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>20d655a7-788c-48bc-83ae-25003106bedb</ExtendedConfigurationObject>
+			<DefaultRecordForm>InformationRegister.СоответствияОбъектовИнформационныхБаз.Form.ППСО_ФормаЗаписи</DefaultRecordForm>
+			<DefaultListForm>InformationRegister.СоответствияОбъектовИнформационныхБаз.Form.ППСО_ФормаСписка</DefaultListForm>
 			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
 			<WriteMode>Independent</WriteMode>
 		</Properties>
 		<ChildObjects>
+			<Resource uuid="1d65c92a-58db-486d-8d2a-3afbbea7d0d8">
+				<InternalInfo/>
+				<Properties>
+					<Name>УникальныйИдентификаторИсточникаСтрокой</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>7bfb78de-899f-4a4d-a8b2-ebadeccf3921</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>36</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Attribute uuid="2f577eb6-6247-4682-ab88-4b48da2bdde0">
+				<InternalInfo/>
+				<Properties>
+					<Name>ОбъектВыгруженПоСсылке</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>68a72014-4b2e-4347-aaa7-54d95b8eb919</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Dimension uuid="0e82110c-5ec5-4f8f-9f64-873402b404f7">
 				<InternalInfo/>
 				<Properties>
@@ -112,6 +142,8 @@
 					</Type>
 				</Properties>
 			</Dimension>
+			<Form>ППСО_ФормаСписка</Form>
+			<Form>ППСО_ФормаЗаписи</Form>
 		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>
