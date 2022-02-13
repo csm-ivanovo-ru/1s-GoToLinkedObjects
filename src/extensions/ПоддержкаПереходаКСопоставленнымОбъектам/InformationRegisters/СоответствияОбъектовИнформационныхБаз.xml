@@ -36,6 +36,7 @@
 			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>20d655a7-788c-48bc-83ae-25003106bedb</ExtendedConfigurationObject>
+			<DefaultRecordForm>InformationRegister.СоответствияОбъектовИнформационныхБаз.Form.ППСО_ФормаЗаписи</DefaultRecordForm>
 			<DefaultListForm>InformationRegister.СоответствияОбъектовИнформационныхБаз.Form.ППСО_ФормаСписка</DefaultListForm>
 			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
 			<WriteMode>Independent</WriteMode>
@@ -142,6 +143,7 @@
 				</Properties>
 			</Dimension>
 			<Form>ППСО_ФормаСписка</Form>
+			<Form>ППСО_ФормаЗаписи</Form>
 		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>
