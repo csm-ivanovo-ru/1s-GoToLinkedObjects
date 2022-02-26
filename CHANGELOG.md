@@ -8,6 +8,8 @@
 
 ## [Unreleased] Неопубликованные изменения (не вошедшие в релиз)
 
+## [1.3.0]
+
 ### Добавлено
 
 - добавлена общая команда `ППСО_ПредупрежденияСинхронизации`,
@@ -93,7 +95,8 @@
   [#2](https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/issues/2)
 - реквизиты доступа к ЕМП загружаются из регистра `НастройкиТранспортаОбменаДанными`
 
-[Unreleased]: https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/compare/1.2.0...HEAD
+[Unreleased]: https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/compare/1.3.0...HEAD
+[1.3.0]: https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/compare/1.2.0...1.3.0
 [1.2.0]: https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/compare/1.1.0...1.2.0
 [1.1.0]: https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/compare/1.0.2...1.1.0
 [1.0.2]: https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/compare/1.0.1...1.0.2
