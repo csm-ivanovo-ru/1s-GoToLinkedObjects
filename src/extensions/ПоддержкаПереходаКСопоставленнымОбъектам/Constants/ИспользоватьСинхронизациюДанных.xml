@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<Constant uuid="4d22fef7-7e1f-42bc-845f-cbc4c36e7376">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьСинхронизациюДанных" category="Manager">
+				<xr:TypeId>c3181764-a98d-4fc0-9227-c9048c69a527</xr:TypeId>
+				<xr:ValueId>7050cf5f-7c3f-4386-a834-6cb0ff695579</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьСинхронизациюДанных" category="ValueManager">
+				<xr:TypeId>e6d2b5ba-c35e-4070-844e-f753fc6184b5</xr:TypeId>
+				<xr:ValueId>4b3b0486-0daa-4ba0-b7e0-c4284e849e35</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ИспользоватьСинхронизациюДанных" category="ValueKey">
+				<xr:TypeId>631c096b-d022-4068-8332-98027f65170f</xr:TypeId>
+				<xr:ValueId>9dff8f4d-857b-4adc-a074-f1c7f11267d8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИспользоватьСинхронизациюДанных</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>f5417147-4d2a-4e49-911b-2bb5eccb8441</ExtendedConfigurationObject>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>
