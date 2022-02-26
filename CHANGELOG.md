@@ -8,6 +8,21 @@
 
 ## [Unreleased] Неопубликованные изменения (не вошедшие в релиз)
 
+## [1.3.0]
+
+### Добавлено
+
+- добавлена общая команда `ППСО_ПредупрежденияСинхронизации`,
+  выполняющая переход из формы синхронизируемых объектов
+  в форму списка регистра `РезультатыОбменаДанными`
+  с отбором по текущему объекту
+  [#11](https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/issues/11)
+
+### Изменено
+
+- ко всем командам расширения применена функциональная опция
+  `ИспользоватьСинхронизациюДанных`
+
 ## [1.2.0]
 
 ### Добавлено
@@ -80,7 +95,8 @@
   [#2](https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/issues/2)
 - реквизиты доступа к ЕМП загружаются из регистра `НастройкиТранспортаОбменаДанными`
 
-[Unreleased]: https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/compare/1.2.0...HEAD
+[Unreleased]: https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/compare/1.3.0...HEAD
+[1.3.0]: https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/compare/1.2.0...1.3.0
 [1.2.0]: https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/compare/1.1.0...1.2.0
 [1.1.0]: https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/compare/1.0.2...1.1.0
 [1.0.2]: https://github.com/csm-ivanovo-ru/1s-GoToLinkedObjects/compare/1.0.1...1.0.2
