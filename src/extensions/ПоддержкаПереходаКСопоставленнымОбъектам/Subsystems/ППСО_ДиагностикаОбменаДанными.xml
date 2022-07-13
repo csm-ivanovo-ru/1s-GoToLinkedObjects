@@ -19,7 +19,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.НастройкиТранспортаОбменаДанными</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СоответствияОбъектовИнформационныхБаз</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ППСО_ОбменДаннымиВызовСервера</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ППСО_ОбменДаннымиКлиентСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСНавигационнымиСсылкамиКлиентСервер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ППСО_ПредупрежденияСинхронизации</xr:Item>
 			</Content>
 		</Properties>
