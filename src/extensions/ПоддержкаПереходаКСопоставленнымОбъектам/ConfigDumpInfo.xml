@@ -11,20 +11,24 @@
 		<Metadata name="Catalog.ЮридическиеЛица" id="cb1a3629-9ebc-4e64-b2d6-0349cc6403e2" configVersion="9dd8ee736df8554d7ad402901ed920a203a1e5b4"/>
 		<Metadata name="CommandGroup.СинхронизацияДанных" id="e6ecaf22-ba5e-4f58-9aac-80287d3628b1" configVersion="a050326e643544ef74ab985532882bc404f4bc70"/>
 		<Metadata name="CommonCommand.ППСО_ПерейтиКСопоставленномуОбъекту" id="38e0162a-55c2-4848-821a-a97c27500619" configVersion="55152881de87a39afa0c6d2d92149870575c6e24"/>
-		<Metadata name="CommonCommand.ППСО_ПерейтиКСопоставленномуОбъекту.CommandModule" id="38e0162a-55c2-4848-821a-a97c27500619.2" configVersion="8ab677b44c00e16f4e7f8cb9067659009068a2e2"/>
+		<Metadata name="CommonCommand.ППСО_ПерейтиКСопоставленномуОбъекту.CommandModule" id="38e0162a-55c2-4848-821a-a97c27500619.2" configVersion="e899a5781de7ed047f7c7eadefe360cff56b2205"/>
 		<Metadata name="CommonCommand.ППСО_ПредупрежденияСинхронизации" id="17996856-d235-4fb5-a6d7-fdea63161c2d" configVersion="c81ad14e910c61a4b12c74dcfc483b69074ea9de"/>
 		<Metadata name="CommonCommand.ППСО_ПредупрежденияСинхронизации.CommandModule" id="17996856-d235-4fb5-a6d7-fdea63161c2d.2" configVersion="8c6e1efbccdd95c61f4873c5e34b671c1b6f4f8d"/>
 		<Metadata name="CommonCommand.ППСО_СопоставленныеОбъекты" id="0f416a69-01f4-4b94-b578-87a777b02b71" configVersion="872c9b0535f26984640625778dce13db260930cd"/>
 		<Metadata name="CommonCommand.ППСО_СопоставленныеОбъекты.CommandModule" id="0f416a69-01f4-4b94-b578-87a777b02b71.2" configVersion="0ab35597af39a8d61d90769adb083b4d88f11684"/>
 		<Metadata name="CommonModule.ОбщегоНазначения" id="b3c7688c-52eb-42eb-8730-032132435816" configVersion="3bed5b36f78a6bc6b397a8b303c9ce80c8fd064b"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияКлиент" id="9fd82293-d4e9-4aaf-939c-52a4c7d7ee2c" configVersion="1657da07aa476b5a4c411d9b6ce7650e62fcd655"/>
 		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер" id="0da6b91b-1124-46b1-b147-6f2063c33205" configVersion="b6deb8bb42bce8914722c93686e0273f1ca8c7c7"/>
 		<Metadata name="CommonModule.ППСО_ОбменДаннымиВызовСервера" id="01497d21-6a5e-4e3e-afd4-ceedd6081636" configVersion="f70b642278223b74312df6873b552b2102a6f766"/>
-		<Metadata name="CommonModule.ППСО_ОбменДаннымиВызовСервера.Module" id="01497d21-6a5e-4e3e-afd4-ceedd6081636.0" configVersion="07369e329f20419a576ed7151d50f227fa4e9f9e"/>
-		<Metadata name="CommonModule.ППСО_ОбменДаннымиКлиентСервер" id="e37f09b6-76f5-4f5b-9dff-d33d23a387d0" configVersion="a7f31eee57a0e70943ffeb709f6f8121331371af"/>
-		<Metadata name="CommonModule.ППСО_ОбменДаннымиКлиентСервер.Module" id="e37f09b6-76f5-4f5b-9dff-d33d23a387d0.0" configVersion="ceb078493a3edbd164608dc46a2e51647823a3d3"/>
+		<Metadata name="CommonModule.ППСО_ОбменДаннымиВызовСервера.Module" id="01497d21-6a5e-4e3e-afd4-ceedd6081636.0" configVersion="8f13c65547869d1b210b0fc5fd31676780e975f9"/>
+		<Metadata name="CommonModule.РаботаСНавигационнымиСсылкамиВызовСервера" id="acb5a8e6-d19b-4aae-8229-028a4de54410" configVersion="eb20e099784ebc7ac51c7938ab6ffe8ba88c03f0"/>
+		<Metadata name="CommonModule.РаботаСНавигационнымиСсылкамиВызовСервера.Module" id="acb5a8e6-d19b-4aae-8229-028a4de54410.0" configVersion="9b977bc6e8b057d777cbc36dd974889e554baec2"/>
+		<Metadata name="CommonModule.РаботаСНавигационнымиСсылкамиКлиентСервер" id="e37f09b6-76f5-4f5b-9dff-d33d23a387d0" configVersion="65fbcb5267b9d1f64121927f07f09ee1e3b4d5cb"/>
+		<Metadata name="CommonModule.РаботаСНавигационнымиСсылкамиКлиентСервер.Module" id="e37f09b6-76f5-4f5b-9dff-d33d23a387d0.0" configVersion="f73a1a064101869d47d8eab51bba0fc6f579b83d"/>
+		<Metadata name="CommonModule.СтандартныеПодсистемыКлиент" id="61794b84-e931-481b-a8e0-62270a7d55f5" configVersion="dfce6c76a33a515c56ceba2d18040bf17ce2e88b"/>
 		<Metadata name="CommonModule.СтроковыеФункцииКлиентСервер" id="26525378-f32d-4435-818f-222a3a457b92" configVersion="47aa8b9f9e75af72215bbe6d64d17b8ffec38a35"/>
 		<Metadata name="CommonPicture.Комментарий" id="31335f66-13df-4cde-bf20-91a42f8833cd" configVersion="6f6913c7ced6a9603f34ffdb0b9f569bd9b2c215"/>
-		<Metadata name="Configuration.ПоддержкаПереходаКСопоставленнымОбъектам" id="240694d2-a897-4ac9-a290-80104238400f" configVersion="45bea752f636a902e0a785eb30540f5ddfc7217d"/>
+		<Metadata name="Configuration.ПоддержкаПереходаКСопоставленнымОбъектам" id="240694d2-a897-4ac9-a290-80104238400f" configVersion="70fdf4cfd9e53e837f383244aadc94289cf2c78f"/>
 		<Metadata name="Constant.ИспользоватьСинхронизациюДанных" id="4d22fef7-7e1f-42bc-845f-cbc4c36e7376" configVersion="ae39f6b7b61a34038d61a04a23f930d71564a49a"/>
 		<Metadata name="Document.АктОбОказанииУслуг" id="2e3c61d0-1278-4bff-907f-40717e3053f3" configVersion="7ea904edee208ccf97fffac980f03b457e6e37be"/>
 		<Metadata name="Document.КассовоеПоступление" id="acfe1edb-ca66-4ec3-b117-2107376c383f" configVersion="d16df485da7eb5af3a1fd5b426c5254918e9aeeb"/>
@@ -56,9 +60,9 @@
 			<Metadata name="InformationRegister.СоответствияОбъектовИнформационныхБаз.Dimension.ТипПриемника" id="ea816a13-1929-4246-a827-3b1408061340"/>
 		</Metadata>
 		<Metadata name="InformationRegister.СоответствияОбъектовИнформационныхБаз.Form.ППСО_ФормаЗаписи" id="8b5536d1-c52e-4e9e-b846-7d2ad829f9ef" configVersion="ff437c6b7fbde7ad8d983eaedd087b4aff6e37ff"/>
-		<Metadata name="InformationRegister.СоответствияОбъектовИнформационныхБаз.Form.ППСО_ФормаЗаписи.Form" id="8b5536d1-c52e-4e9e-b846-7d2ad829f9ef.0" configVersion="c15758d1d96202388d4206f090253706ed0aa45e"/>
+		<Metadata name="InformationRegister.СоответствияОбъектовИнформационныхБаз.Form.ППСО_ФормаЗаписи.Form" id="8b5536d1-c52e-4e9e-b846-7d2ad829f9ef.0" configVersion="a6f73ee5c1260ddcea36c7e5853073f34d880e9d"/>
 		<Metadata name="InformationRegister.СоответствияОбъектовИнформационныхБаз.Form.ППСО_ФормаСписка" id="55d527ae-4c51-45bc-9012-4835bf697ffb" configVersion="8f163a9dd24485261c0a1e91ca73a9d7961bc5a7"/>
-		<Metadata name="InformationRegister.СоответствияОбъектовИнформационныхБаз.Form.ППСО_ФормаСписка.Form" id="55d527ae-4c51-45bc-9012-4835bf697ffb.0" configVersion="e8c88925c3369d818565abe1d881756d584c6ece"/>
+		<Metadata name="InformationRegister.СоответствияОбъектовИнформационныхБаз.Form.ППСО_ФормаСписка.Form" id="55d527ae-4c51-45bc-9012-4835bf697ffb.0" configVersion="618bf065aae470baae5c6c30b13e67823e873b6e"/>
 		<Metadata name="Language.Русский" id="0883738b-3b46-4871-8c4f-bd5f5297b8d1" configVersion="6bc32fc32e93ebb4a2eb8f58f288de1c73453044"/>
 		<Metadata name="Role.АдминистраторСистемы" id="343000c2-2bfe-425a-baeb-cc3d310cead7" configVersion="6097150d942cdbea7231a9756d3c91a2d78e4b4a"/>
 		<Metadata name="Role.АдминистраторСистемы.Rights" id="343000c2-2bfe-425a-baeb-cc3d310cead7.0" configVersion="be68712afd361ca016ef6fcbee8557407c0c30f1"/>
