@@ -2,13 +2,16 @@
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
-			<Button name="ФормаПерейтиКСопоставленномуОбъекту" id="39">
+			<Button name="ФормаПерейтиКСопоставленномуОбъекту" id="43">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.ПерейтиКСопоставленномуОбъекту</CommandName>
-				<ExtendedTooltip name="ФормаПерейтиКСопоставленномуОбъектуРасширеннаяПодсказка" id="40"/>
+				<ExtendedTooltip name="ФормаПерейтиКСопоставленномуОбъектуРасширеннаяПодсказка" id="44"/>
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
 	<ChildItems>
 		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
 			<Title>
@@ -27,12 +30,13 @@
 			<Representation>List</Representation>
 			<CommandBarLocation>None</CommandBarLocation>
 			<DefaultItem>true</DefaultItem>
+			<SelectionMode>SingleRow</SelectionMode>
+			<RowSelectionMode>Row</RowSelectionMode>
 			<UseAlternationRowColor>true</UseAlternationRowColor>
 			<InitialTreeView>ExpandTopLevel</InitialTreeView>
-			<EnableStartDrag>true</EnableStartDrag>
 			<DataPath>Список</DataPath>
 			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
-			<AutoRefresh>false</AutoRefresh>
+			<AutoRefresh>true</AutoRefresh>
 			<AutoRefreshPeriod>60</AutoRefreshPeriod>
 			<Period>
 				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
@@ -42,7 +46,7 @@
 			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 			<RestoreCurrentRow>false</RestoreCurrentRow>
 			<TopLevelParent xsi:nil="true"/>
-			<ShowRoot>true</ShowRoot>
+			<ShowRoot>false</ShowRoot>
 			<AllowRootChoice>false</AllowRootChoice>
 			<UpdateOnDataChange>Auto</UpdateOnDataChange>
 			<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
@@ -89,6 +93,9 @@
 				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="14"/>
 				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
 			</SearchControlAddition>
+			<Events>
+				<Event name="OnActivateRow">СписокПриАктивизацииСтроки</Event>
+			</Events>
 			<ChildItems>
 				<LabelField name="УникальныйИдентификаторИсточника" id="25">
 					<DataPath>Список.УникальныйИдентификаторИсточника</DataPath>
@@ -141,24 +148,6 @@
 					<ContextMenu name="ОбъектВыгруженПоСсылкеКонтекстноеМеню" id="35"/>
 					<ExtendedTooltip name="ОбъектВыгруженПоСсылкеРасширеннаяПодсказка" id="36"/>
 				</CheckBoxField>
-				<LabelField name="ИмяИнформационнойБазы" id="43">
-					<DataPath>Список.ИмяИнформационнойБазы</DataPath>
-					<UserVisible>
-						<xr:Common>false</xr:Common>
-					</UserVisible>
-					<ReadOnly>true</ReadOnly>
-					<ContextMenu name="ИмяИнформационнойБазыКонтекстноеМеню" id="44"/>
-					<ExtendedTooltip name="ИмяИнформационнойБазыРасширеннаяПодсказка" id="45"/>
-				</LabelField>
-				<LabelField name="ИмяСервера" id="46">
-					<DataPath>Список.ИмяСервера</DataPath>
-					<UserVisible>
-						<xr:Common>false</xr:Common>
-					</UserVisible>
-					<ReadOnly>true</ReadOnly>
-					<ContextMenu name="ИмяСервераКонтекстноеМеню" id="47"/>
-					<ExtendedTooltip name="ИмяСервераРасширеннаяПодсказка" id="48"/>
-				</LabelField>
 			</ChildItems>
 		</Table>
 	</ChildItems>
@@ -169,9 +158,9 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
+				<Field>~Список.ИмяИнформационнойБазы</Field>
+				<Field>~Список.ИмяСервера</Field>
 				<Field>~Список.НавигационнаяСсылка</Field>
-				<Field>Список.ИмяИнформационнойБазы</Field>
-				<Field>Список.ИмяСервера</Field>
 				<Field>Список.ТипИсточника</Field>
 				<Field>Список.ТипПриемника</Field>
 				<Field>Список.УзелИнформационнойБазы</Field>
@@ -179,22 +168,8 @@
 				<Field>Список.УникальныйИдентификаторПриемника</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
-				<ManualQuery>true</ManualQuery>
-				<DynamicDataRead>false</DynamicDataRead>
-				<QueryText>ВЫБРАТЬ
-	СоответствияОбъектовИнформационныхБаз.ТипИсточника КАК ТипИсточника,
-	СоответствияОбъектовИнформационныхБаз.ТипПриемника КАК ТипПриемника,
-	СоответствияОбъектовИнформационныхБаз.УзелИнформационнойБазы КАК УзелИнформационнойБазы,
-	СоответствияОбъектовИнформационныхБаз.УникальныйИдентификаторИсточника КАК УникальныйИдентификаторИсточника,
-	СоответствияОбъектовИнформационныхБаз.УникальныйИдентификаторПриемника КАК УникальныйИдентификаторПриемника,
-	СоответствияОбъектовИнформационныхБаз.УникальныйИдентификаторИсточникаСтрокой КАК УникальныйИдентификаторИсточникаСтрокой,
-	СоответствияОбъектовИнформационныхБаз.ОбъектВыгруженПоСсылке КАК ОбъектВыгруженПоСсылке,
-	НастройкиТранспортаОбменаДанными.COMИмяСервера1СПредприятия КАК ИмяСервера,
-	НастройкиТранспортаОбменаДанными.COMИмяИнформационнойБазыНаСервере1СПредприятия КАК ИмяИнформационнойБазы
-ИЗ
-	РегистрСведений.СоответствияОбъектовИнформационныхБаз КАК СоответствияОбъектовИнформационныхБаз
-		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.НастройкиТранспортаОбменаДанными КАК НастройкиТранспортаОбменаДанными
-		ПО (НастройкиТранспортаОбменаДанными.Корреспондент = СоответствияОбъектовИнформационныхБаз.УзелИнформационнойБазы)</QueryText>
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
 				<MainTable>InformationRegister.СоответствияОбъектовИнформационныхБаз</MainTable>
 				<ListSettings>
 					<dcsset:filter>
@@ -246,7 +221,13 @@
 				<xr:Value name="Role.ПолныеПрава">false</xr:Value>
 				<xr:Value name="Role.ППСО_ИспользованиеПереходаКСопоставленнымОбъектамИБ">false</xr:Value>
 			</Use>
+			<Picture>
+				<xr:Ref>StdPicture.GotoExternalURL</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
 			<Action>ПерейтиКСопоставленномуОбъекту</Action>
+			<Representation>TextPicture</Representation>
+			<CurrentRowUse>Use</CurrentRowUse>
 			<AssociatedTableElementId xsi:type="xs:string">Список</AssociatedTableElementId>
 		</Command>
 	</Commands>
